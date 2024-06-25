@@ -1,0 +1,52 @@
+.navbar{
+    background-color: #0A0B27;
+    position: fixed;
+    width: 100%;
+}
+.content{
+    font-family: "merivaregular";
+    font-size: 24px;
+    line-height: 1.2;
+    text-align: left;
+    padding: 120px;
+    
+}
+@media ( max-width:768px){
+    .content{
+        padding: 0;
+    }
+    .black{
+       
+        height: 500px;
+    }
+    .leave-img{
+        height: 100px;
+        width: 50px;
+    }
+
+}
+.black{
+    width:100%;
+    padding-left: 50px;
+}
+.img-responsive{
+    height: 550px;
+    width: 200px;
+    margin-top: 240px;
+}
+a{
+    text-decoration: none;
+    color: #0A0B27;
+    
+}
+#nav-cont{
+    color: white;
+}
+#nav-cont:hover{
+    color: red;
+}
+
+
+
+
+
